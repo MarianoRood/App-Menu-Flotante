@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "YrBdb6KL594lSAZYNDYHCaVfcYfo7rxDpUGo6y1BozxRf2prOma19rvTEKF2eZmOm9SUlVAjwBbGNHbTVorPwg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\maria\\OneDrive\\Documentos\\Escuela\\Desarrollo Movil Integral\\AppMovil2\\AppMovil2.iOS\\AppMovil2.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\maria\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\maria\\.nuget\\packages\\webp.touch\\1.0.8\\webp.touch.1.0.8.nupkg.sha512",
+    "C:\\Users\\maria\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\maria\\.nuget\\packages\\xamarin.ffimageloading\\2.4.11.982\\xamarin.ffimageloading.2.4.11.982.nupkg.sha512",
+    "C:\\Users\\maria\\.nuget\\packages\\xamarin.ffimageloading.forms\\2.4.11.982\\xamarin.ffimageloading.forms.2.4.11.982.nupkg.sha512",
+    "C:\\Users\\maria\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

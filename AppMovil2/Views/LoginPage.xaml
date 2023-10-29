@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="AppMovil2.Views.LoginPage"
+             xmlns:ff="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             Shell.NavBarIsVisible="False"
+             BackgroundColor="{AppThemeBinding Light=White, Dark=#222222}">
+    <!-- Color de fondo oscuro -->
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <!-- Imagen de fondo o logotipo -->
+        <ff:CachedImage
+            Source="geometric.gif"
+            WidthRequest="100"
+            HeightRequest="100"
+            Aspect="AspectFill"></ff:CachedImage>
+       
+
+        <!-- Formulario de inicio de sesión -->
+        <StackLayout Grid.Row="1" HorizontalOptions="FillAndExpand" VerticalOptions="StartAndExpand" Margin="20">
+            <Entry Placeholder="Nombre de usuario" PlaceholderColor="White" BackgroundColor="{AppThemeBinding Light=#c8c8c8, Dark=#333333}" TextColor="{AppThemeBinding Light=#333333, Dark=White}" />
+            <Entry Placeholder="Contraseña" PlaceholderColor="White" BackgroundColor="{AppThemeBinding Light=#c8c8c8, Dark=#333333}" TextColor="{AppThemeBinding Light=#333333, Dark=White}" IsPassword="True" />
+            <Button Text="Iniciar Sesión" BackgroundColor="#45AAB8" TextColor="White" FontAttributes="Bold" CornerRadius="10" Clicked="OnButtonClicked" />
+        </StackLayout>
+
+        <!-- Enlace para recuperar contraseña -->
+        <Label Grid.Row="2" Text="¿Olvidaste tu contraseña?" TextColor="#45AAB8" HorizontalOptions="Center" VerticalOptions="End" Margin="0,0,0,20" />
+    </Grid>
+</ContentPage>
